@@ -11,11 +11,11 @@ int main()
 	int line = 0;
 	int N = 1, n = 0;
 	if ((fopen_s(&myInput,inputfile, "r"))!=0) {
-		printf("Cannot open input file. ");
+		printf("Cannot  open input file. ");
 		exit(1);
 	}
 	if ((fopen_s(&myOutput,outputfile, "w"))!=0) {
-		printf("Cannot open file. ");
+		printf("Cannot  open file. ");
 		exit(1);
 	}
 	char ch;
